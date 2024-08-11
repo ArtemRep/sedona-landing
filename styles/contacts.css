@@ -1,0 +1,128 @@
+.contacts{
+    /* outline: 1px solid red; */
+    margin-bottom: 40px;
+}
+
+.contacts__title{
+    margin: 0 0 20px 40px;
+}
+
+.contacts__wrapper{
+    background-color: var(--co-white);
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__contact-info{
+    /* outline: 1px solid green; */
+    /* max-width: 375px; */
+    width: 375px;
+    
+    
+
+}
+
+.contact-info__address{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 23px;
+    border-bottom: 1px solid var(--co-tour-bcg);
+}
+
+.contact-info__telephone{
+    padding-top: 25px ;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 23px;
+    border-bottom: 1px solid var(--co-tour-bcg);
+
+}
+
+.contact-info__email{
+    padding-top: 25px ;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 23px;
+    border-bottom: 1px solid var(--co-tour-bcg);
+}
+
+.contact-info__grafik{
+    padding-top: 25px ;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 23px;
+    border-bottom: 1px solid var(--co-tour-bcg);
+}
+
+.contact-info__address :first-child, 
+.contact-info__telephone :first-child,
+.contact-info__email :first-child,
+.contact-info__grafik :first-child{
+    font-size: 20px;
+    font-family: 'muller-bold';
+
+}
+
+.contact-info__address :last-child{
+    max-width: 214px;
+    font-size: 16px;
+    font-family: 'muller-regular';
+    line-height: 150%;
+}
+.contact-info__telephone :last-child{
+    max-width: 151px;
+}
+
+.telephone__links > .tel-1, .tel-2,
+.email__links > .email-1, .email-2{
+    display: block;
+    font-size: 16px;
+    color: var(--co-services-link);
+    line-height: 150%;
+    text-decoration: none;
+    font-family: 'muller-regular';
+}
+
+.email__links{
+    max-width: 214px;
+}
+
+.email__links > p{
+    font-size: 16px;
+    line-height: 150%;
+    font-family: 'muller-regular';
+    color: #999;
+}
+
+.contact-info__grafik :last-child{
+    max-width: 214px;
+    font-size: 16px;
+    font-family: 'muller-regular';
+    line-height: 150%;
+}
+
+.route-map-btn{
+    display: block;
+    font-family: 'muller-regular';
+    color: var(--co-services-link);
+    border-radius: 10px;
+    border: 1px solid var(--co-services-link);
+    padding: 23px 30px;
+    width: fit-content;
+    text-decoration: none;
+    margin-top: 45px;
+}
+
+.contacts__img{
+    width: 653px;
+    height: 528px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-image: url('../assets/contacts-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

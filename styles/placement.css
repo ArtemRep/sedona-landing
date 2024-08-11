@@ -1,0 +1,179 @@
+.placement{
+    /* outline: 1px solid green; */
+    margin-bottom: 70px;
+}
+
+.placement__title{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.placement__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.placement__card{
+    width: 374px;
+    height: 440px; /*DELETE*/
+    background-color: var(--co-white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.placement__card-img{
+    width: 100%;
+    height: 217px;
+    
+}
+
+.placement__card-img{
+    margin-bottom: 32px;
+}
+
+.placement__card-img.img--1{
+    background-image:url('../assets/pl-1.png');
+}
+
+.placement__card-img.img--2{
+    background-image:url('../assets/pl-2.png');
+}
+
+.placement__card-img.img--3{
+    background-image:url('../assets/pl-3.png');
+}
+
+.placement__card-img.img--4{
+    background-image:url('../assets/pl-4.png');
+}
+
+.placement__card-img.img--5{
+    background-image:url('../assets/pl-5.png');
+}
+
+.placement__card-img.img--6{
+    background-image:url('../assets/pl-6.png');
+}
+
+.placement__card-img.img--7{
+    background-image:url('../assets/pl-7.png');
+}
+
+.placement__card-img.img--8{
+    background-image:url('../assets/pl-8.png');
+}
+
+.placement--last{
+    background-image:url('../assets/pl-9.png');
+    background-size: contain;
+    display: flex;
+    align-items: end;
+    
+}
+
+.placement__card-conetnt{
+    width: auto;
+    /* outline: 1px solid red; */
+    box-sizing: border-box;
+    padding: 0 45px;
+}
+
+.price{
+    font-size: 20px;
+    font-family: 'muller-bold';
+}
+
+.price::before{
+    content: 'от';
+    font-size: 16px;
+    font-family: 'muller-regular';
+    color: var(--co-placement-card-content-before);
+}
+
+.price::after{
+    content: "ночь";
+    font-size: 16px;
+    font-family: 'muller-regular';
+    color: var(--co-placement-card-content-after);
+    margin-left: 8px;
+}
+
+.star{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.star-list__item{
+    display: inline-block;
+    /* vertical-align: sub; */
+}
+
+.price-and-stars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.star-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.placement__content-description{
+    font-size: 16px;
+    font-family: 'muller-regular';
+}
+
+.placement__content-description p:first-child{
+    color: var(--co-placement-card-content-after);
+    margin-bottom: 16px;
+}
+
+.placement__content-description p:last-child{
+    color: var(--co-placement-card-content-before);
+    
+}
+
+.placement__button{
+    display: block;
+    font-size: 16px;
+    font-family: 'muller-regular';
+    color: var(--co-services-link);
+    text-decoration: none;
+    border: 1px solid var(--co-services-link);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 13px 20px;
+    margin-top: 20px;
+}
+
+.placement__button-last{
+    display: block;
+    font-size: 20px;
+    font-family: 'muller-medium';
+    color: var(--co-white);
+    text-decoration: none;
+    margin-left: 54px;
+    position: relative;
+}
+
+.placement__button-last::after{
+    content: url('../assets/pl-arrow.png');
+    position: absolute;
+    top: 2px;
+    margin-left: 8px;
+}
+
+
+
+
+
+

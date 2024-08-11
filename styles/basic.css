@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'muller-bold';
+    src: url('../fonts/Muller-Trial-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'muller-medium';
+    src: url('../fonts/Muller-Trial-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'muller-regular';
+    src: url('../fonts/Muller-Trial-Regular.ttf');
+}
+
+h2, h3, p{
+    margin: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+/* body{
+    font-family: 'muller-bold';
+    font-family: 'muller-medium';
+} */
+
+h2{
+    color: var(--h2-text-color);
+    font-size: 40px;
+    font-family: 'muller-regular';
+}
+
+
+
+
+
+
+/* header{
+    outline: 1px solid red;
+}
+
+.special-offers{
+    outline: 1px solid green;
+} */

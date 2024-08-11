@@ -1,0 +1,75 @@
+
+.header__top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.header__logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__top a{
+    display: block;
+}
+
+.header__logo-tel{
+    font-family: 'muller-medium';
+    font-size: 20;
+    color: #666;
+    text-decoration: none;
+    
+}
+
+.header__bottom{
+    width: auto;
+    background-color: #fff;
+    height: 70px;
+    border-radius: 15px;
+    /* overflow: hidden; */
+}
+
+/* Нижняя часть HEADER-а навигция */
+.header__bottom{
+    padding-left: 45px;
+    padding-right: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__botom-nav-menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header__nav-link{
+    font-family: 'muller-regular';
+    color: #666;
+    text-decoration: none;
+}
+
+.header__botom-nav-menu{
+    display: flex;
+    column-gap: 40px;
+}
+
+.button{
+    font-family: 'muller-regular';
+    color: #CC9933;
+    text-decoration: none;
+    display: inline-block;
+    padding: 13px 20px;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    
+}
+
+.header__bottom-buttons :first-child{
+    margin-right: 40px;
+}

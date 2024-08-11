@@ -1,0 +1,130 @@
+
+.special-offers{
+    margin-bottom: 70px;
+}
+.special-offers__content{
+    display: flex;
+    column-gap: 24px;
+    /* flex-wrap: wrap; */
+}
+
+.special-offers__content-right{
+    width: 49%;
+}
+
+.special-offers > h2{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.content-right{
+    box-sizing: border-box;
+    display: flow-root; /*Блочный контекст форматирования*/
+    /* width: 573px; */
+    width: 100%;
+    height: 258px;
+    border-radius: 15px;  
+}
+
+.content-right__content{
+    max-width: 420px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.content-right.right--top{
+    background-image: url('../assets/maldiv.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 24px;
+}
+
+.content-right.right--bottom{
+    background-image: url('../assets/turi.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.content-right > .content-right__content > h3{
+    font-size: 40px;
+    color: var(--special-offers-h3-color);
+    font-family: 'muller-bold';
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.content-right__content > p{
+    font-size: 20px;
+    font-family: 'muller-regular';
+    color: rgba(255, 255, 255, .8);
+    margin-bottom: 47px;
+}
+
+.right--top p::after{
+    content: "\20BD";
+    margin-left: 8px;
+}
+
+.content-right__link{
+    display: block;
+}
+.content-right__img{
+    width: 101px;
+    height: 16px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* CONTENT LEFT */
+.special-offers__content-left{
+    width: 49%;
+    overflow: hidden;
+}
+.content-left{
+    box-sizing: border-box;
+    display: flow-root;
+    /* width: 573px; */
+    width: 100%;
+    height: 540px;
+    background-image: url('../assets/nomera.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.content-left__content{
+    max-width: 299px;
+    margin: 212px 0 0 45px;
+}
+
+.content-left__content > h3{
+    font-size: 60px;
+    font-family: 'muller-bold';
+    color: var(--special-offers-h3-color);
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.content-left__content > p{
+    font-size: 30px;
+    font-family: 'muller-regular';
+    color: rgba(255, 255, 255, .8);
+    margin-bottom: 47px;
+    
+}
+
+.content-left__content > p::after{
+    content: "\20BD";
+    margin-left: 8px;
+}
+
+.content-left__link{
+    display: block;
+}
+
+.content-left__img{
+    width: 101px;
+    height: 16px;
+    background-size: cover;
+    background-position: center;
+}

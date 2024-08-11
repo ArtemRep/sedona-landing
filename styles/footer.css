@@ -1,0 +1,111 @@
+footer{
+    background-color: var(--h2-text-color);
+    padding: 45px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.footer__left-conent{
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 125px;
+}
+
+.footer__left-conent > p{
+    max-width: 302px;
+
+    font-size: 16px;
+    color: var(--co-white);
+    line-height: 190%;
+    
+    font-family: 'muller-regular';
+}
+
+.footer__left-conent > p:first-child{
+    margin-bottom: 37px;
+}
+
+.footer__left-conent > p:last-of-type{
+    margin-bottom: 40px;
+}
+
+.footer__user-agreement-link{
+    display: block;
+    font-size: 16px;
+    font-family: 'muller-regular';
+    line-height: 150%;
+    color: var(--co-services-link);
+    text-decoration: none;
+}
+
+.footer__right-content{
+    max-width: 359px;
+    display: inline-block;
+    vertical-align: text-top;
+    
+}
+
+.footer__right-content > p{
+    font-size: 16px;
+    font-family: 'muller-regular';
+    color: var(--co-white);
+    line-height: 190%;
+    margin-bottom: 15px;
+
+}
+
+.footer__tel-link-1,
+.footer__tel-link-2,
+.footer__email-link-1,
+.footer__email-link-2{
+    display: block;
+    font-size: 16px;
+    font-family: 'muller-regular';
+    color: --co-services-link;
+    line-height: 150%;
+    color: var(--co-services-link);
+    text-decoration: none;
+
+}
+
+.footer__tel-link-2{
+    margin-bottom: 15px;
+}
+
+.footer_img{
+    width: 254px;
+    height: 228px;
+    background-image: url('../assets/footer-img.png');
+    background-position: center;
+    position: absolute;
+    top: 115px;
+    left:682px
+}
+
+.social{
+    display: inline-block;
+    vertical-align: text-top;
+    margin-left: 263px;
+}
+.social-group-link{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.social-ok-link{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.social-vk-link{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    display: block;
+}
